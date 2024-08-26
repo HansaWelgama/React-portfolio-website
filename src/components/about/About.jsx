@@ -19,7 +19,6 @@ const About = () => {
         
         <div className="about__content">
         <div className="about__cards">
-         
           <article className="about__card">
           < FaAward className='about__icon'/>
           <h5>Experience</h5>
@@ -39,17 +38,14 @@ const About = () => {
           </article>
         </div>
         <p>
-            As a highly motivated undergraduate in software engineering, 
-            a deep passion for exploring and mastering cutting-edge technologies is held. 
-            Opportunities to apply growing expertise to real-world projects are eagerly sought, 
-            with a desire to collaborate with innovative teams to develop impactful solutions. 
-            A strong foundation in both technical and interpersonal skills has been developed, 
-            driving a commitment to contribute meaningfully to the tech industry. Continuous learning, 
-            growth, and making a positive difference are pursued with dedication.
-
-
+        Motivated undergraduate in software engineering with a passion for cutting-edge technologies. Eager to
+        apply my knowledge to real-world projects and collaborate with innovative teams. Strong interpersonal
+        skills and a drive to make a meaningful impact in the tech industry.
         </p>
+     
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+
+       
         </div>
       </div>
     </section>

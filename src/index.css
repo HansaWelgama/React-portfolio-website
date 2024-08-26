@@ -20,7 +20,7 @@
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 80%;
+    --container-width-sm: 90%;
 } 
 
 html {
@@ -102,6 +102,7 @@ img {
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
+        height: 68vh;
     }
     section{
         margin-top: 6rem;
@@ -112,9 +113,13 @@ img {
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
+        margin-bottom: 28rem;
     }
-    section > h2{
+    section{
         margin-bottom: 2rem;
     }
+    
+
+
     
 }
